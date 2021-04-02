@@ -1,0 +1,39 @@
+
+
+.cont{
+            text-align:center;                        
+        }
+         .box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+        
+        
+
+         .box .text{
+        position: absolute;
+        font-weight:300;
+        color:green;       
+        font-style:oblique;
+        font-size:1.5em;
+        font-family:'Segoe Print';
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 0; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+    }
+         .para{
+             font-size:2em;
+           text-align:center;
+             /*position:relative;
+             left:30px;*/
+         }
+
+         .add{
+             text-align:center;
+             font-family:'Times New Roman';
+             font-style:italic;           
+         }
